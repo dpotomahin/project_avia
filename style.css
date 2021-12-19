@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+body{
+    padding-top: 20px;
+    width: 1400px;
+}
+.menu_1{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_numb{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+    align-items: center;
+    display: flex;
+}
+.menu_numb i{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ur{
+    font-family: "Suisse Int'l Trial";
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+} 
+.ur p:hover{
+    border-radius: 2px;
+    margin-left: 32px;
+    width: 30px;
+    background-color: turquoise;
+    color: white;
+}
+.ue{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon{
+    padding-right: 20px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon i{
+    margin-left: 10px;
+    color: #808080;
+}
+.maonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.online_icon{
+    color: white;
+    margin-left: 13px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+.online_icon i{
+    font-size: 30px;
+}
+.tonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.tonline_icon{
+    margin-left: 28px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.tonline_icon i{
+    font-size: 25px;
+    color: white;
+}
+.glob_nav_header_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #777777;
+}
+.glob_nav_header_1 li:hover{
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+}
+.glob_nav_header_1 .nav-link{
+    margin-left: 40px;
+}
+.nav-link{
+    color: black;
+}
+.avia{
+    padding: 50px;
+}
+.avia_content{
+    display: flex;
+    margin-top: 20px;
+}
+.avia_content h1{
+    margin: 20px;
+    font-family: Montserrat;
+    width: 200px;
+    font-size: 30px;
+}
+.p{
+    display: flex;
+    margin-left: 200px;
+    font-size: 22px;
+    font-family: Montserrat;
+    height: 80px;
+    width: 800px;
+    border-bottom: 1px solid #777777;
+}
+.p p{
+    margin-top: 20px;
+    width: 605px;
+}
+.p i{
+    color: #777777;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.footer_top{
+    padding-bottom: 40px;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(29, 29, 29, 0.2);;
+    width: 1100px;
+    margin: 40px auto 0 auto;
+}
+.footer_top img{
+    width: 156px;
+    height: 86px;
+}
+.footer_top_munu_1{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_1 p{
+    margin: 2px;
+}
+.footer_top_munu_2{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_2 p{
+    margin: 2px;
+}
+.footer_top_p p {
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5;
+}
+.footer_top_p h4{
+    font-size: 15px;
+}
+.footer_top_number h4{
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5; 
+}
+.footer_top_number{
+    font-size: 15px;
+}
+.footer_bottom{
+    display: flex;
+    padding: 20px 150px 0 150px;
+}
+.footer_bottom_i{
+    width: 100%;
+    text-align: end;
+}
+.footer_bottom_i i {
+    color: #3E3E3E;
+}
+.footer_bottom_p{
+    position: absolute;
+    color: rgba(62, 62, 62, 0.5);
+    font-size: 15px;
+    width: 600px;
+}
+.footer{
+    margin-top: 100px;
+    padding: 30px;
+    background: #F8F8F8;
+    height: 260px;
+}
